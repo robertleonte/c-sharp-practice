@@ -4,5 +4,8 @@ using CSharpPractice;
 
 
 var stringManager = new StringManager();
-Console.WriteLine(stringManager.GetStringLength("testword"));
+
+Console.WriteLine("GetStringLength: " + stringManager.GetStringLength("testword"));
+
+Console.WriteLine("GetNumberOfLetterAppearances: " + stringManager.GetNumberOfLetterAppearances("testword", 't'));
 
