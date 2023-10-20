@@ -50,5 +50,10 @@
             var newWord = word.Replace(character, emptySpace);
             return newWord;
         }
+
+        public bool CheckStringsEquality(string firstWord, string secondWord)
+        {
+            return firstWord.Equals(secondWord);
+        }
     }
 }
