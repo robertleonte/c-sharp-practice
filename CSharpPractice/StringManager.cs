@@ -55,5 +55,16 @@
         {
             return firstWord.Equals(secondWord);
         }
+
+        public string GetStringBackwards(string word)
+        {
+            var backwordList = word.Reverse();
+            var backword = "";
+            foreach (var character in backwordList)
+            {
+                backword += character;
+            }
+            return backword;
+        }
     }
 }
