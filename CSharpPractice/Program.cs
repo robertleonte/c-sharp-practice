@@ -13,3 +13,5 @@ Console.WriteLine("GetNumberOfVowels: " + stringManager.GetNumberOfVowels("Today
 
 Console.WriteLine("GetNumberOfWords: " + stringManager.GetNumberOfWords("Today is a good day"));
 
+Console.WriteLine("RemoveCharacter: " + stringManager.RemoveCharacter("abecedar", 'a'));
+

@@ -43,5 +43,12 @@
             var counter = phrase.Split(' ').Length;
             return counter;
         }
+
+        public string RemoveCharacter(string word, char character)
+        {
+            char emptySpace = '\0';
+            var newWord = word.Replace(character, emptySpace);
+            return newWord;
+        }
     }
 }
