@@ -9,3 +9,4 @@ Console.WriteLine("GetStringLength: " + stringManager.GetStringLength("testword"
 
 Console.WriteLine("GetNumberOfLetterAppearances: " + stringManager.GetNumberOfLetterAppearances("testword", 't'));
 
+Console.WriteLine("GetNumberOfVowels: " + stringManager.GetNumberOfVowels("Today is a good day"));

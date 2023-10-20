@@ -22,5 +22,20 @@
             }
             return counter;
         }
+
+        public int GetNumberOfVowels(string word)
+        {
+            // call GetNumberOfLetterAppearances for each vowel
+            var counter = 0;
+            var vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
+            foreach (var character in word)
+            {
+                if (vowels.Contains(character))
+                {
+                    counter++;
+                }
+            }
+            return counter;
+        }
     }
 }
