@@ -37,5 +37,11 @@
             }
             return counter;
         }
+
+        public int GetNumberOfWords(string phrase)
+        {
+            var counter = phrase.Split(' ').Length;
+            return counter;
+        }
     }
 }
