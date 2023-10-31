@@ -1,6 +1,6 @@
 ﻿namespace CSharpPractice
 {
-    public class StringManager
+    public class StringManager : IStringManager
     {
         public int GetStringLength(string word)
         {
