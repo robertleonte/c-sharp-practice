@@ -66,5 +66,17 @@
             }
             return backword;
         }
+
+        public bool IsStringPalindrome(string word)
+        {
+            if (word.CompareTo(GetStringBackwards(word)) == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

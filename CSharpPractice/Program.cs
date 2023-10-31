@@ -12,3 +12,4 @@ Console.WriteLine("GetNumberOfWords: " + stringManager.GetNumberOfWords("Today i
 Console.WriteLine("RemoveCharacter: " + stringManager.RemoveCharacter("abecedar", 'a'));
 Console.WriteLine("CheckStringsEquality: " + stringManager.CheckStringsEquality("abecedar", "abecedar"));
 Console.WriteLine("GetStringBackwards: " + stringManager.GetStringBackwards("abecedar"));
+Console.WriteLine("IsStringPalindrome: " + stringManager.IsStringPalindrome("ana"));
