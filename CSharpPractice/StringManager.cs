@@ -9,9 +9,6 @@
 
         public int GetNumberOfLetterAppearances(string word, char letter)
         {
-            // var nrOfAppearances = word.Split(letter).Length - 1;
-            // return nrOfAppearances;
-
             var counter = 0;
             foreach (var character in word)
             {
@@ -25,7 +22,6 @@
 
         public int GetNumberOfVowels(string word)
         {
-            // call GetNumberOfLetterAppearances for each vowel
             var counter = 0;
             var vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
             foreach (var character in word)
